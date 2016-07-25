@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
@@ -9,12 +10,19 @@
 <h2 class="Heading">In this version you will move and have different types of armor</h2>
 
 <div id="Bigarea">
-	<div id="playerarea"></div>
-	<div id="playerarmor"></div>
+	<div id="controls">
+	<button id="attack" onclick="attack()">Attack</button>
+	<button id="dogde" onclick="dodgehit()">Dodge</button>
+	<button id="nextmonster" onclick="newmonster()">MONSTER</button>
+	</div>
+	<div id="playerresult"></div>
 	<div id="monsterarea"></div>
-	<div id="monsterarmor"></div>
-	<div id="controls"></div>
+	<div id="monsterresult"></div>
+	<div id="controls">
+<div id="playerarea"></div>
 </div>
+
+<script type="text/javascript" src="js/index.js"></script>
 
 </body>
 </html>
