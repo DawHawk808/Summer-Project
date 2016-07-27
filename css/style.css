@@ -3,3 +3,9 @@
 	width: 300px;
 	height: 300px;
 }
+
+#playerresult {
+	background-color: lightblue;
+	width: 150px;
+	height: 150px;
+}
